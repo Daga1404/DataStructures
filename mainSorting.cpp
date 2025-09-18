@@ -49,7 +49,8 @@ int main() {
   }
 
   cout << "\nComparacion final: "
-       << (all_ok ? "Todos los algoritmos producen el mismo arreglo ordenado."
+       << (all_ok ? "Todos los algoritmos producen el mismo arreglo ordenado\n"
+                    " pero la complejidad de algunos es claramente superior a la de otros."
                   : "Al menos un algoritmo no coincidió con el resultado esperado.")
        << "\n";
 
